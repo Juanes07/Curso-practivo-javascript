@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Figuras Geometricas</title>
+</head>
+<body>
+   <header>
+    <h1>
+        Figuras Geometricas
+    </h1>
+    <br/>
+    <p> Este es el primer taller del curso de JS</p>
+   </header>
+   <div class="central">
+    <div class="cuadrado">
+        <section >
+            <h2>Calcula el area y perimetro de un cuadrado</h2>
+            <form action="">
+                <label for="inputCuadrado">
+                    <h5>Escribe cuanto mide cada lado del cuadrado </h5>
+                </label>
+                <input id = "inputCuadrado" type="number" name="number" id="number">
+                <button  id="boton" type="button" onclick="calcularPerimetroCuadrado()">Calcular Perimetro</button>
+                <button id="boton" type="button" onclick= "calcularAreaCuadrado()">Calcular area</button>
+            </form>
+        </section>
+       </div>
+       <div class="triangulo">
+            <section >
+                <h2>Calcula el area y perimetro de un triangulo</h2>
+                <form action="">
+                    <label for="inputTriangulo">
+                        <h5>Escribe en este orden: lado 1, lado 2, base, altura</h5>
+                    </label>
+                    <input id = "inputTrianguloLadoA" type="number" name="number" id="number" placeholder="lado 1">
+                    <input id ="inputTrianguloLadoB" type="number" name="number" id ="number" placeholder="lado 2">
+                    <input id ="inputTrianguloBase" type="number" name="number" id ="number" placeholder="base ">
+                    <input id ="inputTrianguloAlt" type="number" name="number" id ="number" placeholder="altura 1">
+                    <button  id="boton" type="button" onclick="calcularPerimetroTriangulo()">Calcular Perimetro</button>
+                    <button id="boton" type="button" onclick= "calcularAreaTriangulo()">Calcular area</button>
+                </form>
+            </section>
+        </div>
+   </div>
+    <script src="./figuras.js"></script>
+</body>
+</html>
