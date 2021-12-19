@@ -89,3 +89,8 @@ header p{
     text-align: center;
     font-size: 1rem;
 }
+
+#inputTrianguloLadoA{
+    font-size: 1rem;
+    border-radius: 5px;
+}
