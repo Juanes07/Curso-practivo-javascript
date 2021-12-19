@@ -70,10 +70,8 @@ function calcularPerimetroTriandulo(){
 }
 
 function calcularAreaTriangulo(){
-    const inputAltura = document.getElementById("inputTrianguloAltura");
-    const inputBase = duocument.getElementById("inputTrianguloBase");
-    const valueAl = input.valueAl;
-    const valueBa = input.valueBa;
-    const areaC = areaCirculo(value);
-    alert(areaC);
+  const input = document.getElementById("inputCirculo");
+  const value = input.value;
+  const perimetro = perimetroCirculo(value);
+  alert("el perimetro del circulo es: " + perimetro);
 }
