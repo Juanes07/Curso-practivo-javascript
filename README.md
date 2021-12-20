@@ -6,6 +6,7 @@ apuntas sobre las clases del curso practico de javascript en platzi
 - Primer paso: definir las formulas
 - Segundo paso: implementar la formula en JS 
 - Tercer paso: crear funciones 
+<<<<<<< HEAD
 - Cuarto paso: integrar JS con HTML
 
 
@@ -14,3 +15,6 @@ apuntas sobre las clases del curso practico de javascript en platzi
 - Segundo paso: implementar las formulas en javaScript
 - Tercer paso: crear funciones
 - Cuarto paso:  interacturar JS con html
+=======
+- Cuarto paso: integrar JS con HTML
+>>>>>>> 0760bcb9830d5ae676ee3aa7081d106baafb143d

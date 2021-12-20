@@ -70,6 +70,7 @@ function calcularPerimetroTriandulo(){
 }
 
 function calcularAreaTriangulo(){
+<<<<<<< HEAD
     const inputAltura = document.getElementById("inputTrianguloAltura");
     const inputBase = duocument.getElementById("inputTrianguloBase");
     const valueAl = input.valueAl;
@@ -85,4 +86,10 @@ function validarTriangulo(lado1,lado2,base){
   } else {
     console.log("eso no es un isoceles");
   }
+=======
+  const input = document.getElementById("inputCirculo");
+  const value = input.value;
+  const perimetro = perimetroCirculo(value);
+  alert("el perimetro del circulo es: " + perimetro);
+>>>>>>> 0760bcb9830d5ae676ee3aa7081d106baafb143d
 }
