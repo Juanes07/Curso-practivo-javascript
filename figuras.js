@@ -77,3 +77,12 @@ function calcularAreaTriangulo(){
     const areaC = areaCirculo(value);
     alert(areaC);
 }
+
+function validarTriangulo(lado1,lado2,base){
+  if(lado1 == lado2){
+      console.log("si es un triangulo isoceles");
+      return console.log(Math.sqrt((lado1*lado2)/((base*base)/4))); 
+  } else {
+    console.log("eso no es un isoceles");
+  }
+}
